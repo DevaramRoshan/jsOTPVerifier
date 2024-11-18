@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.email {
+  height: 40vh;
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffb703;
+}
+
+.input,
+.verify {
+  height: 40%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.input div {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input div input {
+  height: 100%;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+.input div input::-moz-placeholder {
+  font-size: large;
+  font-family: cursive;
+  padding-left: 2rem;
+}
+.input div input::placeholder {
+  font-size: large;
+  font-family: cursive;
+  padding-left: 2rem;
+}
+
+.input div label {
+  font-size: larger;
+}
+
+.verify {
+  display: none;
+}
+
+.verify input {
+  height: 40%;
+  width: 40%;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 2px solid black;
+}
+.verify input::-moz-placeholder {
+  font-size: large;
+  font-family: cursive;
+  padding-left: 2rem;
+}
+.verify input::placeholder {
+  font-size: large;
+  font-family: cursive;
+  padding-left: 2rem;
+}
+
+.verify button {
+  height: 25%;
+  width: 25%;
+  border-radius: 0.5rem;
+  background-color: #023047;
+  font-size: large;
+  color: #fefae0;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.input button {
+  height: 25%;
+  width: 25%;
+  border-radius: 0.5rem;
+  background-color: #023047;
+  font-size: large;
+  color: #fefae0;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
